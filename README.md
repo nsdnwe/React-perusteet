@@ -820,10 +820,10 @@ export default class EditBook extends React.Component {
 }
 ```
 
-Routing (Ver 3)
+Routing
 =======
 
-Asennus
+Asennus (Versio 3)
 -------
 
 -   Asenna React router ja React history
