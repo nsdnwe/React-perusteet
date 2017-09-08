@@ -808,7 +808,7 @@ export default class EditBook extends React.Component {
             <h2 className="panel-title">Add new book</h2>
           </div>
           <div className="panel-body">
-            <input autoFocus placeholder="Book name" className="form-control" style={controlStyle} **defaultValue={name} onChange={(me) => this.setState({name: me.target.value})**}></input>
+            <input autoFocus placeholder="Book name" className="form-control" style={controlStyle} defaultValue={name} onChange={(me) => this.setState({name: me.target.value})}></input>
             <input placeholder="Author" className="form-control" style={controlStyle} defaultValue={author} onChange={(me) => this.setState({author: me.target.value})}></input>
             <input placeholder="Description" className="form-control" style={controlStyle} defaultValue={description} onChange={(me) => this.setState({description: me.target.value})}></input>
             <button className="btn btn-primary btn-block" style={controlStyle} onClick={ this.postData.bind(this) }>OK</button>
