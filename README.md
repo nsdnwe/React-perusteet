@@ -4,7 +4,11 @@ ReactJS - Perusteet
 Yleistä
 -------
 
-React on Facebook:in kehittämä käyttöliittymien toteutukseen tarkoitettu Javascript kirjasto. MVC mallin näkökulmasta React toteuttaa vain View-kerroksen. React on yksinkertaisempi ja nopeammin opittavissa kuin esim. Angular.
+React on selain-käyttöliittymien toteutukseen tarkoitettu nykyaikainen Javascript kirjasto, jonka kehityksen taustalla on Facebook. 
+
+React on yksinkertainen, nopea ja helposti skaalautuva. 
+
+MVC-mallin näkökulmasta React toteuttaa vain View-kerroksen ja näin ollen on helpommin opittavissa kuin esimerkiksi Angular 2.
 
 React käyttöliittymän nopeus perustuu ns. virtuaaliseen DOM:in. Käytännössä muutokset tehdään ensin virtual DOM:iin ja React päivittää ne tarvittaessa taustalla selaimen DOM:in.
 
