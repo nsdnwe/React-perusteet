@@ -4,6 +4,8 @@ ReactJS - Perusteet
 Yleistä
 -------
 
+React on ensisijaiseti käyttöliittymien toteutukseen suunnattu Javascript kirjasto, joka on yksinkertainen, nopea ja helposti skaalautuva. 
+
 React on selain-käyttöliittymien toteutukseen tarkoitettu nykyaikainen Javascript kirjasto, jonka kehityksen taustalla on Facebook. 
 
 React on yksinkertainen, nopea ja helposti skaalautuva. 
@@ -23,7 +25,7 @@ Lisätietoja: <https://facebook.github.io/react/>
 Kehitysympäristö
 ----------------
 
-React kehitystä voi tehdä periaatteessa kaikilla yleisimmillä IDE:llä. MS:n tarjoamista vaihtoehdoista VS Code on tällä hetkellä paras, sillä se tukee Javascript kehitystä paremmin kuin Visual Studio. Kehitystä voi tehdä myös OSX tai Linux ympäristöissä.
+React kehitystä voi tehdä periaatteessa kaikilla yleisimmillä IDE:llä. MS:n tarjoamista vaihtoehdoista VS Code on tällä hetkellä paras, sillä se tukee Javascript kehitystä paremmin kuin Visual Studio. VS Code on saatavilla myös OSX tai Linux ympäristöihin.
 
 Visual Studio ympäristössä esim. ASP.Net MVC projektiin on mahdollista sisällyttää React komponentteja **ReactJS.Net** kirjastojen avulla, mutta ne eivät sisällä mm. Import-Export toiminnollisuuksia, jotka ovat tarpeellisia rakenteellisesti hajautettujen eli useista moduuleista koostuvien React-järjestelmien kehityksessä.
 
@@ -52,7 +54,7 @@ Uuden React projektin aloitus
 
 ### React, Babel ja Webpack asennus
 
-React kehityksessä tarvitaan React kirjastojen ja Babelin lisäksi Javascript bundler, joista yleisimmin käytetään on Webpack:ia. Tämän lisäksi tarvitaan web server, yleensä Webpack dev server. Nämä asennetaan samasta templatesta seuraavasti
+React kehityksessä on erittäin suositeltavaa käyttää React kirjastojen ja Babelin lisäksi Javascript bundleria, joista yleisimmin käytössä on Webpack:ia. Tämän lisäksi tarvitaan web server, yleensä Webpack dev server. Nämä asennetaan samasta templatesta seuraavasti
 
 -   Lisää tarvittaessa uusi kansio VS Code projekteille esim. \\My Documents\\VS Code Projects
 
@@ -196,7 +198,7 @@ export default class MyClass {
 Esim. kutsu
 
 ```javascript
-import MyClass from './MyClass.jsx'
+import MyClass from './MyClass.js'
 var myObj = new MyClass(8)
 myObj.MyMethod(7)
 ```
